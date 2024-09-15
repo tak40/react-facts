@@ -1,0 +1,83 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    font-family: Inter, sans-serif;
+    color: #fff;
+}
+
+/* Container Styles */
+.container {
+    width: 550px;
+    height: 550px;
+    margin: 0 auto;
+    background-image: url(./assets/react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position: right 75%;
+    background-color: #282d35;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #21222a;
+    padding: 30px 25px;
+    height: 90px;
+}
+
+.nav-left {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.nav-icon {
+    width: 2em;
+}
+
+.nav-title {
+    color: #61dafb;
+}
+
+/* Main Content Styles */
+main {
+    padding: 57px 0 125px 27px;
+    height: 459px;
+}
+
+.main-title {
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-bottom: 35px;
+}
+
+.main-facts {
+    padding: 0 86px 0 51px;
+}
+
+.main-facts > li {
+    margin-bottom: 16px;
+    font-size: 1rem;
+    width: 390px;
+}
+
+.main-facts > li:last-child {
+    margin-bottom: 0px;
+}
+
+.main-facts > li::marker {
+    color: #61dafb;
+    font-size: 1.4rem;
+}

@@ -54,6 +54,8 @@ Through this project, I've learned:
 
 This project is based on the curriculum from [Scrimba's React Basics course](https://scrimba.com/learn/learnreact).
 
+## Vite React Setup
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

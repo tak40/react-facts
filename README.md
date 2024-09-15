@@ -6,7 +6,7 @@ This project is a simple React application that displays fun facts about React. 
 
 ## Screenshot
 
-![React Facts App Screenshot](./assets/screenshot.png)
+![React Facts App Screenshot](./src/assets/screenshot.png)
 
 ## Features
 

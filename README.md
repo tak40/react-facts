@@ -4,6 +4,10 @@
 
 This project is a simple React application that displays fun facts about React. It's the first project from Scrimba's React Basics module, serving as an introduction to React fundamentals.
 
+## Screenshot
+
+![React Facts App Screenshot](./assets/screenshot.png)
+
 ## Features
 
 -   Static webpage displaying React facts
@@ -41,6 +45,11 @@ To run this project locally:
 
 After starting the development server, open your browser and navigate to `http://localhost:5173` (or the port Vite specifies). You should see the React Facts page displayed.
 
+## Design
+
+This project is based on a Figma design provided by Scrimba. You can view the original design here:
+[React Facts Figma Design](https://www.figma.com/design/xA1rJVQOorqMW6xjGdBLcI/ReactFacts?node-id=0-1)
+
 ## Learning Outcomes
 
 Through this project, I've learned:
@@ -50,10 +59,6 @@ Through this project, I've learned:
 -   How to style React components
 -   Setting up a React project with Vite
 
-## Credits
-
-This project is based on the curriculum from [Scrimba's React Basics course](https://scrimba.com/learn/learnreact).
-
 ## Vite React Setup
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -62,3 +67,7 @@ Currently, two official plugins are available:
 
 -   [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 -   [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Credits
+
+This project is based on the curriculum from [Scrimba's React Basics course](https://scrimba.com/learn/learnreact).
